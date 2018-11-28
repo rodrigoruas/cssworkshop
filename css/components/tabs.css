@@ -1,0 +1,44 @@
+.tabs {
+  background-color: #534540;
+  color: white;
+  padding: 10px 10px 0 10px;
+  display: flex;
+}
+
+.tabs h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tabs p {
+  font-weight: lighter;
+  font-size: 19px;
+  opacity: 0.7;
+
+}
+
+.tabs-item {
+  /*flex: 0 0 25%;*/
+  flex: 1 0 auto;
+  background-color: #756A66;
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+.tabs-item:first-child {
+  /*flex: 0 0 25%;*/
+  border-radius: 10px 0 0 0;
+
+}
+
+.tabs-item:last-child {
+  /*flex: 0 0 25%;*/
+  border-radius:  0 10px 0 0;
+
+}
+
+.tabs-item-active {
+  background-color: white;
+  color:black;
+}
